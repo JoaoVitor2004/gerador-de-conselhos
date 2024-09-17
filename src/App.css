@@ -16,9 +16,16 @@
   text-align: center;
 }
 
+.advice-id {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 35px;
+}
+
 .title {
   font-size: 14px;
-  margin-bottom: 35px;
   text-transform: uppercase;
   letter-spacing: 5px;
   color: hsl(150, 100%, 66%);

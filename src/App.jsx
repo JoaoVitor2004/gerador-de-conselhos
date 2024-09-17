@@ -10,7 +10,7 @@ function App() {
 
 
   async function adicionarConselho() {
-    
+
     try {
       const respoonse = await api.get()
       const data = respoonse.data
@@ -24,15 +24,22 @@ function App() {
   return (
     <main className='conteudo-principal'>
       <div className='container'>
-        <h4 className='title'>Advice</h4>
+        <div className='advice-id'>
+          <h4 className='title'>Advice</h4>
+          {
+            Object.keys(conselho).length > 0 && (
+              <span># {conselho.slip.id}</span>
+            )
+          }
+        </div>
         {
           Object.keys(conselho).length > 0 && (
             <p className='advice animate__animated animate__rubberBand'>{conselho.slip.advice}</p>
           )
         }
         <picture>
-          <source media="(max-width: 450px)" srcset={DividerMobile}/>
-          <img className='line' src={DividerDesktop} alt="linha horizontal"/>
+          <source media="(max-width: 450px)" srcset={DividerMobile} />
+          <img className='line' src={DividerDesktop} alt="linha horizontal" />
         </picture>
         <button onClick={adicionarConselho} className='btn-conselho'>
           <img src={Icon} alt="icone conselho" />
