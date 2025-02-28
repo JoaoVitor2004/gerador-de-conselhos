@@ -8,7 +8,7 @@ Desenvolvido um projeto consultado uma api para gerar conselhos estando responsi
 
 ## ⚙️ Acessar o projeto
 
-ir direto na barra de endereço do navegador acima e colocar o seguinte endereço <code><a href='https://joaovitor2004-api-github.vercel.app/'>https://joaovitor2004-api-github.vercel.app/</a></code>
+ir direto na barra de endereço do navegador acima e colocar o seguinte endereço <code><a href='https://projeto-gerador-de-conselho.netlify.app/'>https://joaovitor2004-api-github.vercel.app/</a></code>
 
 ## ⚒️ Tecnologias utilizadas
 
